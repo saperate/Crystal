@@ -8,6 +8,5 @@ class MessageBlockData{
   final Map<Uuid, MessageData> messages = <Uuid,MessageData>{};
 
   MessageBlockData(this.ID);
-
-  public
+  
 }
