@@ -28,3 +28,7 @@ class AppData{
   }
 }
 
+void main(){
+  AppData data = new AppData(DateTime.now(), new UserData("Lucy"));
+  data.addChannel(new ChannelData(Uuid.generateRandom()));
+}
