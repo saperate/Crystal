@@ -1,4 +1,4 @@
-import '../../../utils/uuid.dart';
+import '../../../../../utils/uuid.dart';
 
 /// Data attributed to a single message;
 class MessageData{

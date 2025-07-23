@@ -1,5 +1,5 @@
-import 'package:crystal/services/data/structures/general/app_data.dart';
-import 'package:crystal/services/data/structures/general/user_data.dart';
+import 'package:crystal/services/data/structures/app/app_data.dart';
+import 'package:crystal/services/data/structures/app/user_data.dart';
 
 class DataManager{
   static final _instance = DataManager._internal();

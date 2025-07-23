@@ -20,6 +20,15 @@ class Uuid{
 
 
   @override
+  int get hashCode => ID.hashCode;
+
+
+  @override
+  bool operator ==(Object other) {
+    return ID.hashCode == other.hashCode;
+  }
+
+  @override
   String toString() {
     String str = "";
     for(int i = 0; i < 14 ; i++) {
@@ -30,9 +39,9 @@ class Uuid{
     }
     return str;
   }
-
   // TODO a toString function that puts the ids as hexadecimal
 }
+
 
 void main() {
   Uuid ID = Uuid.generateRandom();
